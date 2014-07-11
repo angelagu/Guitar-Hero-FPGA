@@ -1,12 +1,12 @@
-GuitarHeroGame
+Guitar Hero Made On FPGA
 
-Introduction
+Inspired by commonly played games Rockband, Tap Tap & Guitar Hero, the idea for this game is to press the correct button based on 3 streams of LED signals. 
 
-For this lab we were asked to create our own project applying skills learned throughout Labs 1-7. The design of this lab was inspired by the commonly played games Rockband, Tap Tap and Guitar Hero. The basic idea for this type of game is that there are lines of LEDs sending a signal towards the user who selects the correct button corresponding to the signal sent by the LEDs to gain points. This was done so by having a line of LEDs on a Styrofoam board (so they are evenly spaced) connected to a breadboard which is connected to an FPGA board sending the signals as to which lights turn on when. The buttons on the FPGA Board are used as the user’s input and the score is displayed on the 7 segment LED. All the coding is done in Verilog; a shift register is used to send the signal down the columns of LEDs; the signals of the LEDs used in this lab play to the song “Eye of a Tiger” by American rock band “Survivor”.
+The LEDs are wired on a Styrofoam board, which is connected to a breadboard, which is connected to a Field Programmable Gate Array (FPGA), which provides the input for turning on and off the LEDs. The propagation of the LED signal is perpetuated by usage of shift registers. When the signal has reached the bottom of a column of LEDs, the player must press the corresponding button, and their score is displayed on the 7-segment LED of the FPGA. 
 
-Problem Statement
+We also made it so that if the player tries to cheat by holding down the buttons even when the LEDs aren't turned on, the score decreases. 
 
-Create a game similar to Rockband, Tap Tap and Guitar Hero where a signal is send down columns of LEDs and the user inputs the corresponding button to the LEDs which have reached the bottom of the columns of LEDs.
+The LEDs play to the song "Eye of a Tiger" by the American rock band "Survivor" (hard coded). 
 
 Materials & Equipment
 
