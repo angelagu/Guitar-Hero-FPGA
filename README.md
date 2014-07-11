@@ -1,5 +1,3 @@
-Guitar Hero Made On FPGA
-
 Inspired by commonly played games Rockband, Tap Tap & Guitar Hero, the idea for this game is to press the correct button based on 3 streams of LED signals. 
 
 The LEDs are wired on a Styrofoam board, which is connected to a breadboard, which is connected to a Field Programmable Gate Array (FPGA), which provides the input for turning on and off the LEDs. The propagation of the LED signal is perpetuated by usage of shift registers. When the signal has reached the bottom of a column of LEDs, the player must press the corresponding button, and their score is displayed on the 7-segment LED of the FPGA. 
