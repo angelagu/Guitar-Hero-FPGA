@@ -148,27 +148,27 @@ assign shiftin0[0] = 1, shiftin0[1] = 0, shiftin0[2] = 0, shiftin0[3] = 0;
 
 	//assign led7 = temp0[7]; //don’t use led7 because it’s connected to VCC
 	assign led6 = temp0[6];
-            assign led5 = temp0[5];
-            assign led4 = temp0[4];	 
-            assign led3 = temp0[3];
+        assign led5 = temp0[5];
+        assign led4 = temp0[4];	 
+        assign led3 = temp0[3];
 	assign led2 = temp0[2];
 	assign led1 = temp0[1];
 	assign led0 = temp0[0];
 	
 	assign led15 = temp1[7];
 	assign led14 = temp1[6];
-            assign led13 = temp1[5];
-            assign led12 = temp1[4];	 
-            assign led11 = temp1[3];
+        assign led13 = temp1[5];
+        assign led12 = temp1[4];	 
+        assign led11 = temp1[3];
 	assign led10 = temp1[2];
 	assign led9 = temp1[1];
 	assign led8 = temp1[0];
 	
 	assign led23 = temp2[7];
 	assign led22 = temp2[6];
-            assign led21 = temp2[5];
-            assign led20 = temp2[4];	 
-            assign led19 = temp2[3];
+        assign led21 = temp2[5];
+        assign led20 = temp2[4];	 
+        assign led19 = temp2[3];
 	assign led18 = temp2[2];
 	assign led17 = temp2[1];
 	assign led16 = temp2[0];
